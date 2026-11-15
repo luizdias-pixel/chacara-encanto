@@ -1,0 +1,649 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="theme-color" content="#26372D">
+    <meta name="description"
+        content="Conheça a Chácara Encanto, em Palmas, Tocantins. Natureza, lazer e paisagens incríveis à beira do lago.">
+
+    <title>Chácara Encanto  </title>
+
+    <!-- Fontes -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lora:wght@400;500;600&family=Manrope:wght@400;500;600;700&display=swap"
+        rel="stylesheet">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- JavaScript -->
+    <script src="main.js" defer></script>
+</head>
+
+<body>
+
+    <!-- CABEÇALHO -->
+
+    <header class="header" id="inicio">
+
+        <nav class="navbar container" aria-label="Navegação principal">
+
+            <a href="#inicio" class="brand" aria-label="Chácara Encanto - início">
+
+                <img src="logo/logo.png" alt="" class="brand-logo">
+
+                <span>Chácara Encanto</span>
+
+            </a>
+
+            <button class="menu-toggle" type="button" aria-label="Abrir menu" aria-expanded="false"
+                aria-controls="navigation">
+
+                <span></span>
+                <span></span>
+
+            </button>
+
+            <div class="navigation" id="navigation">
+
+                <a href="index.html">Início</a>
+                <a href="#chacara">A Chácara</a>
+                <a href="#ambientes">Ambientes</a>
+                <a href="#galeria">Galeria</a>
+                <a href="#informacoes">Informações</a>
+                <a href="#contato">Contato</a>
+
+
+                <a href="https://wa.me/5563981270045?text=Olá%2C%20gostei%20da%20chácara%20e%20quero%20negociar%20um%20orçamento"
+                    class="nav-contact whatsapp-link" target="_blank" rel="noopener noreferrer">
+
+
+                    Falar pelo WhatsApp <span>↗</span>
+
+                </a>
+
+            </div>
+
+        </nav>
+
+    </header>
+
+
+    <main>
+
+        <!-- HERO / CARROSSEL -->
+
+        <section class="hero" aria-label="Apresentação da Chácara Encanto">
+
+            <div class="hero-carousel">
+
+                <div class="hero-slide active">
+
+                    <img src="paisagens/Por_do _sol_lago-1.png" alt="Área de lazer da Chácara Encanto"
+                        fetchpriority="high">
+
+                </div>
+
+                <div class="hero-slide" aria-hidden="true">
+
+                    <img src="paisagens/pcanva.png" alt="Paisagem do lago próximo à chácara" loading="lazy">
+
+                </div>
+
+                <div class="hero-slide" aria-hidden="true">
+
+                    <video class="hero-video" autoplay muted loop playsinline preload="metadata"
+                        poster="assets/images/hero-chacara.jpg">
+
+                        <source src="videos/IMG_8288.MP4" type="video/mp4">
+
+                        Seu navegador não suporta vídeos HTML5.
+
+                    </video>
+
+                </div>
+
+            </div>
+
+
+            <div class="hero-shade"></div>
+
+
+            <div class="hero-content container">
+
+                <span class="hero-eyebrow">
+                    PALMAS - TOCANTINS
+                </span>
+
+                <h1>
+                    Chácara<br>
+                    Encanto<span class="title-dot">.</span>
+                </h1>
+
+                <p class="hero-subtitle">
+                    Seu tempo. Sua paz. Seu encanto.
+                </p>
+
+                <p class="hero-description">
+                    Natureza, lazer e bons momentos em um só lugar
+                    Um refúgio para contemplar a paisagem e estar
+                    perto de quem importa
+                </p>
+
+                <a href="#chacara" class="button button-primary">
+                    Conheça a chácara
+                    <span aria-hidden="true">↓</span>
+                </a>
+
+            </div>
+
+
+            <div class="carousel-controls">
+
+                <button class="carousel-arrow carousel-prev" type="button" aria-label="Fotografia anterior">
+
+                    ←
+
+                </button>
+
+                <div class="carousel-indicators" aria-label="Selecionar fotografia">
+
+                    <button class="carousel-indicator active" type="button" aria-label="Mostrar fotografia 1"
+                        aria-current="true">
+                    </button>
+
+                    <button class="carousel-indicator" type="button" aria-label="Mostrar fotografia 2">
+                    </button>
+
+                    <button class="carousel-indicator" type="button" aria-label="Mostrar fotografia 3">
+                    </button>
+
+                </div>
+
+                <button class="carousel-arrow carousel-next" type="button" aria-label="Próxima fotografia">
+
+                    →
+
+                </button>
+
+            </div>
+
+
+            <a href="#chacara" class="hero-scroll" aria-label="Rolar para a próxima seção">
+                <span></span>
+            </a>
+
+        </section>
+
+
+        <!-- APRESENTAÇÃO -->
+
+        <section class="about section-padding container" id="chacara">
+
+            <div class="about-content">
+
+                <span class="section-label">A CHÁCARA</span>
+
+                <h2>
+                    Dias tranquilos.<br>
+                    Momentos de paz.
+                </h2>
+
+
+
+                <p>
+                    Existe um lugar onde a natureza faz parte de cada
+                    momento, a paisagem convida a desacelerar e os
+                    encontros ganham um significado especial.
+                </p>
+
+                <p>
+                    A Chácara Encanto é um convite para aproveitar
+                    a tranquilidade, contemplar o lago e compartilhar
+                    bons momentos em um cenário especial.
+                </p>
+
+            </div>
+
+
+            <figure class="about-image">
+
+                <img src="espaco/area.png" alt="Vista da Chácara Encanto e de sua área externa" loading="lazy">
+
+            </figure>
+
+
+
+        </section>
+
+
+        <!-- AMBIENTES -->
+
+        <section class="spaces section-padding" id="ambientes">
+
+            <div class="container">
+
+                <div class="section-heading">
+
+                    <div>
+
+                        <span class="section-label">ESPAÇOS</span>
+
+                        <h2>A chácara Contém</h2>
+
+                    </div>
+
+
+
+                </div>
+
+
+                <div class="spaces-grid">
+
+                    <article class="space-item space-pool">
+
+                        <img src="espaco/es2.jpg" alt="Piscina da Chácara Encanto" loading="lazy">
+
+                        <div class="space-caption">
+
+
+
+                            <h3>Piscina</h3>
+
+                            <p>Para aproveitar os dias de sol.</p>
+
+                        </div>
+
+                    </article>
+
+
+                    <article class="space-item space-gourmet">
+
+                        <img src="espaco/es1.jpeg" alt="Área gourmet da propriedade" loading="lazy">
+
+                        <div class="space-caption">
+
+
+
+                            <h3>Área gourmet</h3>
+
+                            <p>Para reunir todo mundo.</p>
+
+                        </div>
+
+                    </article>
+
+
+                    <article class="space-item space-garden">
+
+                        <img src="paisagens/p1.png" alt="Jardim e vegetação da chácara" loading="lazy">
+
+                        <div class="space-caption">
+
+
+
+                            <h3>Lago</h3>
+
+                            <p>Para se maravilhar com as paisagens naturais do nosso Tocantins.</p>
+
+                        </div>
+
+                    </article>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- PAISAGEM PANORÂMICA -->
+
+        <section class="landscape" aria-label="Paisagem natural">
+
+            <img src="paisagens/Por_do _sol_lago-2.png" alt="Paisagem do lago ao entardecer" loading="lazy">
+
+            <div class="landscape-shade"></div>
+
+            <div class="landscape-content container">
+
+
+
+                <p>
+                    Os melhores momentos<br>
+                    não precisam de pressa.
+                </p>
+
+            </div>
+
+        </section>
+
+
+        <!-- GALERIA -->
+
+        <section class="gallery section-padding container" id="galeria">
+
+
+            <div class="gallery-intro">
+
+                <span class="section-label">GALERIA</span>
+
+                <h2>A chácara<br>em detalhes</h2>
+
+                <p>
+                    Explore os cenários e descubra os detalhes
+                    que tornam a Chácara Encanto especial.
+                </p>
+
+                <a href="https://photos.google.com/share/AF1QipNHHBqZ7Q5PcPPMtyWxUC6kKTizXNKweKxYi55sgcpqfVz2bYBMx3_S03oS1-MQxw?key=Y0JUMFFaRWcwZi1CMlFaeTNZV3FEQU11QnZ1RWFR"
+                    class="button button-outline" target="_blank" rel="noopener noreferrer">
+
+                    Ver todas as fotos <span>→</span>
+
+                </a>
+
+            </div>
+
+
+
+            <div class="gallery-grid" id="galeria-fotos">
+
+                <button class="gallery-item gallery-main" type="button" data-full="espaco/IMG_0007.png"
+                    data-alt="Vista da área externa da Chácara Encanto" aria-label="Ampliar fotografia da área externa">
+
+                    <img src="espaco/IMG_0007.png" alt="Área externa da chácara" loading="lazy">
+
+                </button>
+
+
+                <button class="gallery-item" type="button" data-full="paisagens/Pôr do Sol no Lago do Resort-3.png"
+                    data-alt="Vegetação e jardim da chácara" aria-label="Ampliar fotografia do jardim">
+
+                    <img src="paisagens/Pôr do Sol no Lago do Resort-3.png" alt="Paisagem" loading="lazy">
+
+                </button>
+
+
+                <button class="gallery-item" type="button" data-full="espaco/es5.png"
+                    data-alt="Piscina da Chácara Encanto" aria-label="Ampliar fotografia da piscina">
+
+                    <img src="espaco/es5.png" alt="Piscina" loading="lazy">
+
+                </button>
+
+
+                <button class="gallery-item gallery-wide" type="button" data-full="paisagens/pcanva.png"
+                    data-alt="Paisagem natural próxima ao lago" aria-label="Ampliar fotografia da paisagem">
+
+                    <img src="paisagens/pcanva.png" alt="Paisagem natural do lago" loading="lazy">
+
+                </button>
+
+            </div>
+
+        </section>
+
+
+        <!-- INFORMAÇÕES -->
+
+        <section class="information section-padding" id="informacoes">
+
+            <div class="container">
+
+                <div class="information-heading">
+
+                    <span class="section-label">INFORMAÇÕES</span>
+
+                    <h1>Tudo o que você precisa saber</h1>
+
+                </div>
+
+
+                <div class="information-list">
+
+                    <article class="information-item">
+                        <h3>Localização</h3>
+                        <p>Palmas, Tocantins.</p><br>
+                        <span aria-hidden="true">↓</span>
+                        <br>
+                        <a href="https://www.google.com/maps/place/CH%C3%81CARA+ENCANTO/@-10.1140681,-48.5608383,9z/data=!4m6!3m5!1s0x9324c1a933542a69:0x83f9a52dab0f6298!8m2!3d-9.964112!4d-48.341953!16s%2Fg%2F11vb205c6s?entry=ttu&g_ep=EgoyMDI2MTAyOC4wIKXMDSoASAFQAw%3D%3D"
+                            class="nav-contact whatsapp-link" target="_blank" rel="noopener noreferrer">
+                            Localização
+
+                        </a>
+
+
+
+                    </article>
+
+
+                    <article class="information-item">
+
+
+
+                        <h3>Natureza</h3>
+
+                        <p>Paisagens naturais, vista para o lago e paisagens fascinantes.</p>
+
+                    </article>
+
+
+
+                    <article class="information-item">
+
+                        <h3>Estrutura</h3>
+
+
+
+                        <ul class="structure-highlights" id="information-list">
+                            <li>
+                                <strong>20 pessoas</strong>
+                                <span>Capacidade nos quartos</span>
+                            </li>
+
+                            <li>
+                                <strong>6 quartos</strong>
+                                <span>Todos com ar-condicionado</span>
+                            </li>
+
+                            <li>
+                                <strong>8 banheiros</strong>
+                                <span>Incluindo as suítes</span>
+                            </li>
+
+                            <li>
+                                <strong>Cozinha equipada</strong>
+                                <span>Utensílios e eletrodomésticos</span>
+                            </li>
+
+                            <li>
+                                <strong>Área externa</strong>
+                                <span>Piscina, pergolados e duchas</span>
+                            </li>
+
+                            <li>
+                                <strong>Wi-Fi</strong>
+                                <span>Conexão disponível</span>
+                            </li>
+                        </ul>
+
+                    </article>
+
+                    <article class="information-item">
+
+                        <h3>Visitação</h3>
+                        <p>Entre em contato para obter informações.</p>
+                        <br>
+                        <br>
+                        <a href="https://wa.me/5563981270045?text=Olá%2C%20gostei%20da%20chácara%20e%20quero%20negociar%20um%20orçamento"
+                    class="nav-contact whatsapp-link" target="_blank" rel="noopener noreferrer">
+
+
+                    Falar pelo WhatsApp <span>↗</span>
+
+                        </a>
+
+
+                    </article>
+
+                </div>
+
+            </div>
+
+        </section>
+        </article>
+
+        <!-- CONTATO -->
+
+        <section class="contact section-padding" id="contato">
+
+            <div class="contact-decoration" aria-hidden="true"></div>
+
+            <div class="contact-content container">
+
+                <div class="contact-title">
+
+                    <span class="section-label">CHÁCARA ENCANTO</span>
+
+                    <h2>
+                        Seu próximo momento<br>
+                        especial começa aqui.
+                    </h2>
+
+                </div>
+
+
+                <span></span>
+
+
+                <a href="https://www.instagram.com/chacara_encanto_palmas/" class="button button-contact whatsapp-link"
+                    aria-label="Instagram da Chácara Encanto" target="_blank" rel="noopener noreferrer">
+
+
+
+                    Instagram ↗
+
+                </a>
+
+
+                 <a href="https://wa.me/5563981270045?text=Olá%2C%20gostei%20da%20chácara%20e%20quero%20negociar%20um%20orçamento"
+                    class="nav-contact whatsapp-link" target="_blank" rel="noopener noreferrer">
+
+
+                    Falar pelo WhatsApp <span>↗</span>
+
+                </a>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <!-- RODAPÉ -->
+
+    <footer class="footer">
+
+        <div class="footer-main container">
+
+            <a href="#inicio" class="footer-brand">
+
+                <img src="logo/logo.png" alt="" class="footer-logo">
+
+                <span>Chácara Encanto</span>
+
+            </a>
+
+
+            <a href="https://www.google.com/maps/place/CH%C3%81CARA+ENCANTO/@-9.964112,-48.341953,17z/data=!3m1!4b1!4m6!3m5!1s0x9324c1a933542a69:0x83f9a52dab0f6298!8m2!3d-9.964112!4d-48.341953!16s%2Fg%2F11vb205c6s?entry=ttu&g_ep=EgoyMDI2MTAyOC4wIKXMDSoASAFQAw%3D%3D"
+                class="social-link" aria-label="Instagram da Chácara Encanto" target="_blank" rel="noopener noreferrer">
+
+
+
+                Palmas Tocantins ↗
+
+
+                <div class="footer-social">
+
+                    <a href="https://www.instagram.com/chacara_encanto_palmas/" class="social-link"
+                        aria-label="Instagram da Chácara Encanto" target="_blank" rel="noopener noreferrer">
+
+
+
+                        Instagram ↗
+
+                    </a>
+
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <a href="https://wa.me/5563981270045?text=Olá%2C%20gostei%20da%20chácara%20e%20quero%20negociar%20um%20orçamento" class="social-link"
+                        aria-label="Instagram da Chácara Encanto" target="_blank" rel="noopener noreferrer">
+
+
+                  
+
+                        WhatsApp ↗
+
+                    </a>
+
+                </div>
+
+
+                <p class="footer-tagline">
+                    Natureza · Lazer · Bons momentos
+                </p>
+
+        </div>
+
+
+        <div class="footer-bottom container">
+
+            <p>
+                © <span id="current-year"></span>
+                Chácara Encanto. Todos os direitos reservados.
+            </p>
+
+            <a href="index.html">Voltar ao início ↑</a>
+
+        </div>
+
+    </footer>
+
+
+    <!-- VISUALIZADOR DA GALERIA -->
+
+    <dialog class="lightbox" aria-label="Visualizador de fotografias">
+
+        <button class="lightbox-close" type="button" aria-label="Fechar fotografia">
+
+            ×
+
+        </button>
+
+        <button class="lightbox-prev" type="button" aria-label="Fotografia anterior">
+
+            ←
+
+        </button>
+
+        <img src="" alt="" class="lightbox-image">
+
+        <button class="lightbox-next" type="button" aria-label="Próxima fotografia">
+
+            →
+
+        </button>
+
+        <p class="lightbox-counter" aria-live="polite"></p>
+
+    </dialog>
+
+</body>
+
+</html>
