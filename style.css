@@ -3548,4 +3548,37 @@ p {
     .whatsapp-link {
         border-radius: 14px !important;
     }
+
+    /* Centralização dos botões de contato no celular */
+@media (max-width: 760px) {
+
+    .contact-content > a {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        width: 100%;
+        max-width: 320px;
+        min-height: 64px;
+
+        margin: 0 auto;
+        padding: 16px 24px;
+
+        box-sizing: border-box;
+        text-align: center;
+        white-space: nowrap;
+
+        border-radius: 18px;
+    }
+
+    .contact-content .button-contact {
+        width: 100%;
+        max-width: 320px;
+        height: 64px;
+
+        justify-self: center;
+        margin-inline: auto;
+        padding: 16px 24px;
+    }
+}
 }
