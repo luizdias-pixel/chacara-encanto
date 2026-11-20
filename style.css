@@ -1048,6 +1048,9 @@ p {
 }
 
 .button-contact {
+    width: 100px;
+    height: auto;
+    padding: auto;
     white-space: nowrap;
 
     color: var(--white);
@@ -1409,27 +1412,34 @@ p {
         transform: translateY(-3.5px) rotate(-45deg);
     }
 
-    .navigation {
-    position: fixed;
-    z-index: 101;
+   .navigation {
+    position: fixed !important;
+    z-index: 9999;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
 
-    inset: 0;
+    width: 100%;
+    height: 100vh;
+    height: 100dvh;
+    min-height: 100vh;
+
+    box-sizing: border-box;
 
     display: flex;
     flex-direction: column;
     align-items: stretch;
     justify-content: center;
-
     gap: 0;
 
     padding: 90px 35px 40px;
 
     color: var(--white);
-    background: var(--green-dark);
+    background: var(--green-dark) !important;
 
     visibility: hidden;
     opacity: 0;
-
     transform: translateY(-10px);
 
     transition:
@@ -1438,23 +1448,19 @@ p {
         transform var(--transition);
 }
 
-    .navigation.open {
-        visibility: visible;
-        opacity: 1;
+.navigation.open {
+    visibility: visible;
+    opacity: 1;
+    transform: translateY(0);
+}
 
-        transform: translateY(0);
-    }
-
-    .navigation > a:not(.nav-contact) {
-        padding: 14px 0;
-
-        font-family: var(--heading-font);
-        font-size: 25px;
-        font-weight: 400;
-
-        border-bottom: 1px solid rgba(255, 253, 248, 0.18);
-    }
-
+.navigation > a:not(.nav-contact) {
+    padding: 14px 0;
+    font-family: var(--heading-font);
+    font-size: 25px;
+    font-weight: 400;
+    border-bottom: 1px solid rgba(255, 253, 248, 0.18);
+}
     .navigation > a:not(.nav-contact)::after {
         display: none;
     }
@@ -1464,6 +1470,7 @@ p {
 
         margin-top: 25px;
         padding: 15px;
+        
     }
 
 
@@ -1770,4 +1777,9 @@ p {
         transition-duration: 0.01ms !important;
     }
 
+
+    .nav-contact,
+.whatsapp-link {
+    border-radius: 20px;
+}
 }
