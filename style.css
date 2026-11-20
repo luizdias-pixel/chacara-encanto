@@ -1410,33 +1410,33 @@ p {
     }
 
     .navigation {
-        position: fixed;
-        z-index: 101;
+    position: fixed;
+    z-index: 101;
 
-        inset: 0;
+    inset: 0;
 
-        display: flex;
-        flex-direction: column;
-        align-items: stretch;
-        justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    justify-content: center;
 
-        gap: 0;
+    gap: 0;
 
-        padding: 90px 35px 40px;
+    padding: 90px 35px 40px;
 
-        color: var(--green-dark);
-        background: var(--white);
+    color: var(--white);
+    background: var(--green-dark);
 
-        visibility: hidden;
-        opacity: 0;
+    visibility: hidden;
+    opacity: 0;
 
-        transform: translateY(-10px);
+    transform: translateY(-10px);
 
-        transition:
-            opacity var(--transition),
-            visibility var(--transition),
-            transform var(--transition);
-    }
+    transition:
+        opacity var(--transition),
+        visibility var(--transition),
+        transform var(--transition);
+}
 
     .navigation.open {
         visibility: visible;
@@ -1452,7 +1452,7 @@ p {
         font-size: 25px;
         font-weight: 400;
 
-        border-bottom: 1px solid #E8E3D8;
+        border-bottom: 1px solid rgba(255, 253, 248, 0.18);
     }
 
     .navigation > a:not(.nav-contact)::after {
