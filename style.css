@@ -1786,4 +1786,19 @@ p {
 .whatsapp-link {
     border-radius: 20px;
 }
+/* Arredondamento dos botões em todas as telas */
+button,
+.nav-contact,
+.whatsapp-link {
+    border-radius: 14px !important;
+}
+
+/* Garantir o arredondamento no mobile */
+@media (max-width: 760px) {
+    .navigation .nav-contact,
+    .navigation .whatsapp-link,
+    .whatsapp-link {
+        border-radius: 14px !important;
+    }
+}
 }
